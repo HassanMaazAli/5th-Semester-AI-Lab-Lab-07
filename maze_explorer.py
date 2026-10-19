@@ -27,6 +27,7 @@ maze = {
     "Room2": ["Exit"],
     "Trap": [],
     "Exit": [],
+    "SecretVault": [],
 }
 
 can_reach, order = dfs_can_reach(maze, "Entrance", "Exit")
