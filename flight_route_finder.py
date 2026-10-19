@@ -45,3 +45,4 @@ flights = {
 route, cost, explored_count = ucs_cheapest_route(flights, "Islamabad", "Quetta")
 print("\nCheapest route:", route)
 print("Total ticket cost:", cost)
+print(f"Total routes explored: {explored_count}")
