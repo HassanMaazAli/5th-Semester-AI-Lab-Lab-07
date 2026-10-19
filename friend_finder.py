@@ -23,7 +23,8 @@ network = {
     "Sara": ["Ali", "Omar"],
     "Zara": ["Bilal", "Hira"],
     "Omar": ["Sara"],
-    "Hira": ["Zara"],
+    "Hira": ["Zara", "Usman"],
+    "Usman": ["Hira"],
 }
 
 path = bfs_shortest_path(network, "Ali", "Hira")
